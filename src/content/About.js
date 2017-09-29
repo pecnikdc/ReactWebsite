@@ -13,12 +13,12 @@ const About = (props) => {
 		<DefaultLayout>
 
 			<Heading
-				title="Productivity Application - Kanban Style Customizable Boards, Lists and Cards to make you more productive."
-				subtitle="Kanban style, Trello inspired Productivity application built using the awesome React, Ant Design, Apollo Client and other fantastic libraries."
+				title="Coming Soon Lisk Platform"
+				subtitle="Source for all thing Lisk.."
 			/>
 
 			<Col span={14} offset={5} style={{ marginTop: 40 }}>
-				<p>For installation instructions and how to use this application, Please visit <URL to="https://github.com/dhruv-kumar-jha/productivity-frontend" /></p>
+				<p>For Donations: 17332733417264422668L/></p>
 			</Col>
 
 			<SEO url="about" />

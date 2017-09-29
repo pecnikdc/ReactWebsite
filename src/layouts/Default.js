@@ -22,4 +22,6 @@ const DefaultLayout = (props) => {
 
 }
 
+import Footer from 'app/components/Footer';
+
 export default DefaultLayout;

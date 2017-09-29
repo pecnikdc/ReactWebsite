@@ -13,7 +13,7 @@
   "author": "Dhruv Kumar Jha <dhruv@dhruvkumarjha.com>",
   "license": "MIT",
   "devDependencies": {
-    "antd": "^2.9.3",
+    "antd": "^2.13.3",
     "axios": "^0.16.1",
     "babel-core": "^6.24.1",
     "babel-eslint": "^7.2.3",

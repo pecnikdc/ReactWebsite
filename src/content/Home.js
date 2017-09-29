@@ -13,16 +13,22 @@ const Home = (props) => {
 		<DefaultLayout>
 
 			<Heading
-				title="Hey You, Yes You!, Want to be More Productive? Have lists of things you care about? Love simple and sexy UI?"
+				title="Coming Soon..."
+				subitle="LiskPlatform"
 			/>
 
 			<Col span={24} className="component--slider">
+			<Carousel autoplay autoplaySpeed={5000}>
 				<div>
 					<div className="image">
-						<img src="/images/slider/1.png" />
+						<center><img src="/images/slider/1.png"/></center>
 					</div>
-					<div className="title" style={{ textAlign: 'center' }}>This is a screenshot of the Board view page</div>
+					<div className="title" style={{ textAlign: 'center' }}>Coming Soon!!!!</div>
 				</div>
+				<div>
+					<div className="title" style={{ textAlign: 'center' }}>LiskPlatform...</div>
+				</div>
+			</Carousel>
 			</Col>
 
 			<SEO url="home" />

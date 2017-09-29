@@ -19,8 +19,8 @@ const ContactUs = (props) => {
 		<DefaultLayout>
 
 			<Heading
-				title="Who doesn't love to get Feedback and Suggestions?"
-				subtitle="We would love to hear from you., Just fill the form below and we will get in touch with you soon (if required)."
+				title="Have any suggestions or content you'd like to see on the site?"
+				subtitle="Coming Soon.. Doesn't work yet"
 			/>
 
 			<Col span={14} offset={5}>
