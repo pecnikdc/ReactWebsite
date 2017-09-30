@@ -43,5 +43,8 @@
     "rimraf": "^2.6.1",
     "sass-loader": "^6.0.3",
     "webpack": "^2.4.1"
+  },
+  "dependencies": {
+    "flexbox": "^0.0.3"
   }
 }

@@ -18,7 +18,7 @@ const About = (props) => {
 			/>
 
 			<Col span={14} offset={5} style={{ marginTop: 40 }}>
-				<p>For Donations: 17332733417264422668L/></p>
+				<p>For Donations: 17332733417264422668L</p>
 			</Col>
 
 			<SEO url="about" />
