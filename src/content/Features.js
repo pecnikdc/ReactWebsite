@@ -3,7 +3,7 @@
 import React from 'react';
 import DefaultLayout from 'app/layouts/Default';
 import { Heading } from 'app/components/UI';
-import { Row, Col, Icon } from 'antd';
+import { Row, Col, Icon, Popover, Button } from 'antd';
 import SEO from 'app/components/SEO';
 
 
@@ -22,8 +22,8 @@ const Features = (props) => {
 		<DefaultLayout>
 
 			<Heading
-				title="Some of the Features of this Application."
-				subtitle="Given below is a list of features of this application., If you have any suggestions for a feature, Just create a new issue or let me know."
+				title="Some of features that are planned"
+				subtitle="Let us know if you have anything you want to see!"
 			/>
 	
 
@@ -33,10 +33,17 @@ const Features = (props) => {
 						<Col key={index} xs={24} sm={12} md={8} className="feature-container">
 						<div className="feature">
 							<div className="title">
-								<div className="status">{ feature.status ? <Icon type="check-circle-o" /> : <Icon type="close-circle-o" /> }</div>
-								{ feature.title }
+								<div className="status">{<Icon type="check-circle-o" />}</div>
+									<Popover content={ feature.title } trigger="hover">
+										{feature.title } 
+									</Popover>
 							</div>
-							<div className="description">{ feature.description }</div>
+
+							<div className="description">
+								<Popover content={ feature.description } trigger="hover">
+									{feature.description}
+								</Popover>
+							</div>
 						</div>
 						</Col>
 					);
