@@ -17,6 +17,8 @@ const DefaultLayout = (props) => {
             </div>
             </div>
 
+             <Footer />
+
         </div>
     );
 

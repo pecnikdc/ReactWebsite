@@ -10,8 +10,10 @@ $font_family_sil: 'Shadows Into Light Two', cursive;
 $font_family_lg: 'Lucida Grande', Tahoma;
 
 $header_height: 50px;
+$footer_height: 50px;
 $content_width: 1000px;
 $body_background: rgba(12, 12, 12, 0);
+
 
 
 body {
@@ -28,8 +30,8 @@ body {
 // header styles: start
 header.main {
 	height: $header_height;
-	border-bottom: 1px solid #DDD;
-	background: #FFF;
+	border-bottom: 1px solid #0A0A0A;
+	background: #161616;
 	position: fixed;
 	left: 0;
 	right: 0;
@@ -132,6 +134,68 @@ header.main {
 	}
 
 }
+
+footer.main {
+	height: $footer_height;
+	border-bottom: 1px solid #0A0A0A;
+	background: #161616;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	z-index: 10;
+	// padding: 0 50px;
+
+	border-bottom: 4px solid #F7F8FA;
+	box-shadow: 0 0 0 1px #CCC;
+
+	.container {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.logo {
+		font-size: 36px;
+		font-weight: 700;
+		color: rgba(0, 0, 0, 0.27);
+		line-height: $footer_height;
+
+		a {
+			color: #000;
+		}
+	}
+
+	nav {
+		overflow: hidden;
+		display: flex;
+
+		a {
+			font-weight: 700;
+			font-size: 14px;
+			color: #000;
+			line-height: 24px;
+			margin: 13px 0;
+			&.active {
+				color: #FF0000;
+			}
+		}
+
+		span.sep {
+			font-size: 18px;
+			line-height: 24px;
+			padding:  13px 0;
+			color: #CCC;
+
+			&:before {
+				font-weight: 100;
+				content: '|';
+				padding: 0 10px;
+			}
+		}
+
+	}
+}
+// footer styles: end
 
 
 .component--slider {
